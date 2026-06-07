@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sati_ilya | Genshin Impact</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Segoe UI,Arial,sans-serif;
+background:#0f0a0a;
+color:white;
+overflow-x:hidden;
+}
+body::before{
+content:'';
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 20% 20%, rgba(255,120,40,.25), transparent 30%),
+radial-gradient(circle at 80% 30%, rgba(255,80,0,.2), transparent 30%),
+linear-gradient(180deg,#170c08,#0f0a0a);
+z-index:-1;
+}
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+.hero h1{
+font-size:4rem;
+color:#ffd39a;
+text-shadow:0 0 25px #ff7a18;
+animation:float 3s ease-in-out infinite;
+}
+.hero p{max-width:700px;margin:20px 0;font-size:1.2rem}
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:linear-gradient(45deg,#ff7a18,#ffb347);
+color:#fff;
+text-decoration:none;
+border-radius:14px;
+font-weight:bold;
+transition:.3s;
+}
+.btn:hover{transform:scale(1.08)}
+.section{max-width:1200px;margin:auto;padding:40px 20px}
+.title{text-align:center;font-size:2rem;margin-bottom:30px;color:#ffb347}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:22px;
+}
+.card{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+border-radius:20px;
+padding:22px;
+backdrop-filter:blur(8px);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(255,122,24,.5);
+}
+.price{
+font-size:1.5rem;
+font-weight:bold;
+color:#ffd166;
+margin:12px 0;
+}
+.adv{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+.adv div{
+background:rgba(255,255,255,.05);
+padding:18px;
+border-radius:15px;
+text-align:center;
+}
+footer{
+padding:40px;
+text-align:center;
+margin-top:30px;
+border-top:1px solid rgba(255,255,255,.1);
+}
+@keyframes float{
+50%{transform:translateY(-10px)}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>🔥 sati_ilya 🔥</h1>
+<p>Профессиональные услуги по Genshin Impact. Прохождение, драйверинг, фарм ресурсов, сюжет и зачистка локаций.</p>
+<a class="btn" href="https://t.me/satishotr">Заказать услугу</a>
+</section>
+
+<section class="section">
+<h2 class="title">Популярные услуги</h2>
+<div class="grid">
+
+<div class="card">
+<h3>🍁 Задания Архонтов</h3>
+<div class="price">от 120 ₽</div>
+<a class="btn" href="https://t.me/satishotr">Заказать</a>
+</div>
+
+<div class="card">
+<h3>🍁 Задания Легенд</h3>
+<div class="price">90 ₽</div>
+<p>от 10 штук — 85 ₽</p>
+<a class="btn" href="https://t.me/satishotr">Заказать</a>
+</div>
+
+<div class="card">
+<h3>🌙 Нод-Край</h3>
+<div class="price">1400 ₽</div>
+<p>Полный сюжет 6.0–6.6</p>
+<a class="btn" href="https://t.me/satishotr">Заказать</a>
+</div>
+
+<div class="card">
+<h3>🔥 Натлан 100%</h3>
+<div class="price">4500 ₽</div>
+<p>Сюжет, сундуки, пирокулы и задания.</p>
+<a class="btn" href="https://t.me/satishotr">Заказать</a>
+</div>
+
+<div class="card">
+<h3>🎣 Рыболовное оружие</h3>
+<div class="price">300–400 ₽</div>
+<a class="btn" href="https://t.me/satishotr">Заказать</a>
+</div>
+
+<div class="card">
+<h3>🚀 Драйверинг</h3>
+<div class="price">2500 ₽ / 8000 ₽</div>
+<a class="btn" href="https://t.me/satishotr">Заказать</a>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">Почему выбирают меня</h2>
+<div class="adv">
+<div>✅ Более 3 лет опыта</div>
+<div>✅ Без читов</div>
+<div>✅ Быстрая связь</div>
+<div>✅ Личный аккаунт 60 AR</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">Контакты</h2>
+<div style="text-align:center">
+<a class="btn" href="https://t.me/satishotr">@satishotr</a>
+</div>
+</section>
+
+<footer>
+sati_ilya © 2026
+</footer>
+
+</body>
+</html>
